@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+        body{
+        background-color: #f78d8d;
+        }   
+        header{
+        padding: 32px;
+        border-bottom:20px solid black;
+        background-color: rgb(35, 166, 214);
+        }
+        header div{
+            text-align: center;
+        }
+        header div a {
+            color: white;
+            font-size: 22px;    
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+            font-family: "Ojuju", sans-serif;
+    }
+    header div a:hover{
+        color: green;
+    transition: color 700ms;
+    }
+        img{max-width: 32px;
+        max-height: 32px;}
+        #box {
+            text-align: center;
+            padding: 32px;
+        }
+
+        #box img{
+            border-radius: 100%;
+            border: 5px solid #262086;
+            margin-bottom:30px;
+        }
+        #box h1{
+            font-size: 42px;
+            line-height: 52px;
+            font-weight: bold;
+        }
+        #box h2 {
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: normal;
+            margin-top: 8px;
+            opacity: 0.8;
+        }
+        #box p {
+            max-width: 500px;
+            margin: 32px auto;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        :root{
+            --subcor: #57a615
+        }
+        .links {
+            text-align: center;
+        }
+        .links a{
+            color:white;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+        }
+        .links a:hover {
+            color: white;
+            transition:600ms;
+            font-size: 23px;
+        }
+        #box h1{
+            padding: 4px;
+        }
+        #box h2{
+            padding: 10px;
+        }
+        #box  {  
+            font-size: 23px;
+        }
+        #box a {
+            color: aqua;
+            transition: 600ms
+        }
+        #linksfooter {
+            padding-top: 32px;
+        }
+        #linksFooter a {
+            padding-top: 32px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid black;
+        }
+
+
