@@ -96,5 +96,27 @@
             padding-bottom: 8px;
             border-bottom: 3px solid black;
         }
+        .cards {
+            max-width: 800px;
+            margin: 10px auto;
+        }
+        .card {
+            background-color: rgb(109, 241, 82);
+        }
+
+        .card_image img{
+            width: 100%;
+            
+        }
+
+        .card_content,.card_info{
+            padding:18px
+        }
+        .card_info{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+            
+
 
 
